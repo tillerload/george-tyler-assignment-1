@@ -1,1 +1,35 @@
-@use "setup"
+@use "setup";
+
+$primary-background: #B15600;
+$seconday-background: #500801;
+$button-color: #1D0303;
+$text-color: #FFFFFF;
+
+$base-font: 'Petit Formal Script', 'cursive';
+
+body {
+  font-size: 125%;
+}
+
+// Header Section
+
+header {
+  background: $primary-background;
+
+}
+
+nav ul {
+  list-style: none;
+  
+  
+}
+
+.header-section {
+  display: flex;
+  justify-content: center;
+}
+
+.header-section img {
+  
+
+}
