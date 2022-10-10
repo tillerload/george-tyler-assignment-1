@@ -20,6 +20,7 @@ header {
 
 nav ul {
   list-style: none;
+  flex-direction: row;
   
   
 }
@@ -29,7 +30,21 @@ nav ul {
   justify-content: center;
 }
 
-.header-section img {
+// .header-section img {
+//   padding: ;
+
+// }
+
+
+// About Section
+
+.about-section {
+  background: $seconday-background;
+  display: flex;
+
+}
+
+.about-section img {
   
 
 }
