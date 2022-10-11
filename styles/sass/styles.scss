@@ -20,6 +20,7 @@ body {
   margin: 0 auto;
   max-width: 90%;
 }
+
 header {
   background: $primary-background;
 
@@ -27,30 +28,42 @@ header {
 
 nav ul {
   list-style: none;
-  flex-direction: row;
-  
-  
+  display: flex;
 }
 
 .header-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  
+}
+
+.header-section h1 {
+  font-size: 4.5rem;
+  width: 500px;
+  text-align: right;
+  padding: 200px 0px 0px 0px;
+
+}
+
+.header-section img {
+  padding: 0px 0px 50px 0px;
+
 }
 
 
 
-// .header-section img {
-//   padding: ;
-
-// }
-
-
 // About Section
+
+
 
 .about-section {
   background: $seconday-background;
   display: flex;
 
+}
+
+.about-section .wrapper {
+  display: flex;
 }
 
 .about-section h2 {
@@ -86,3 +99,24 @@ nav ul {
 .about-info {
   padding: 10px 50px 50px 0px;
 }
+
+// Gallery Section
+
+.gallery-section h2 {
+  font-size: 2.7rem;
+  text-align: center;
+  padding: 50px;
+  font-weight: lighter;
+}
+
+.gallery-imgs {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.gallery-imgs img {
+  padding: 0px 20px 75px 20px;
+}
+
+// Contact Section
