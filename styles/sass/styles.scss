@@ -16,6 +16,10 @@ body {
 
 // Header Section
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 90%;
+}
 header {
   background: $primary-background;
 
@@ -32,6 +36,8 @@ nav ul {
   display: flex;
   justify-content: center;
 }
+
+
 
 // .header-section img {
 //   padding: ;

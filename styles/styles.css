@@ -233,6 +233,11 @@ body {
   background: #B15600;
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
 header {
   background: #B15600;
 }
